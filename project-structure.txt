@@ -1,0 +1,35 @@
+trade-genius/
+├── backend/
+│   ├── src/
+│   │   ├── database/
+│   │   │   ├── database.cpp
+│   │   │   └── database.h
+│   │   ├── load_balancer/
+│   │   │   ├── load_balancer.cpp
+│   │   │   └── load_balancer.h
+│   │   ├── stock_analysis/
+│   │   │   ├── analyzer.cpp
+│   │   │   └── analyzer.h
+│   │   └── main.cpp
+│   ├── include/
+│   │   └── external_apis.h
+│   └── CMakeLists.txt
+├── frontend/
+│   ├── pages/
+│   │   ├── index.js
+│   │   ├── api/
+│   │   │   └── analyze.js
+│   │   └── docs.js
+│   ├── components/
+│   │   ├── StockInput.js
+│   │   └── AnalysisResult.js
+│   ├── styles/
+│   │   └── globals.css
+│   └── tailwind.config.js
+├── scripts/
+│   ├── setup.sh
+│   └── run.sh
+├── README.md
+├── project-structure.txt
+├── LICENSE
+└── docker-compose.yml
