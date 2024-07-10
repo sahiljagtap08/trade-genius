@@ -1,8 +1,8 @@
-## Project Name: **StockSage**
+## Project Name: **TradeGenius**
 
 ### Overview
 
-**StockSage** is a comprehensive stock trading advisor system that integrates multiple technologies including C++, Golang, Python, Next.js, and Tailwind CSS. The application provides stock analysis and recommendations by scraping news, performing sentiment analysis, and utilizing machine learning models. The system is designed for high performance and scalability, featuring a custom database with an integrated load balancer.
+**TradeGenius** is a comprehensive stock trading advisor system that integrates multiple technologies including C++, Golang, Python, Next.js, and Tailwind CSS. The application provides stock analysis and recommendations by scraping news, performing sentiment analysis, and utilizing machine learning models. The system is designed for high performance and scalability, featuring a custom database with an integrated load balancer.
 
 ### Features
 
@@ -27,7 +27,7 @@
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/stock-sage.git
+   git clone https://github.com/sahiljagtap08/trade-genius.git
    cd stock-sage
    ```
 
@@ -48,7 +48,7 @@
 4. **Set up the API Gateway**:
    ```sh
    cd ../api-gateway
-   go mod init stock-sage-api
+   go mod init trade-genius-api
    go get -u github.com/gin-gonic/gin
    ```
 
@@ -57,7 +57,7 @@
 1. **Start the backend server**:
    ```sh
    cd backend/build
-   ./stock_sage_backend
+   ./trade_genius_backend
    ```
 
 2. **Start the API Gateway**:
@@ -84,7 +84,7 @@
 ### Project Structure
 
 ```
-stock-sage/
+trade-genius/
 ├── backend/
 │   ├── src/
 │   │   ├── database/
@@ -140,7 +140,7 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
-    "stock-sage-api/handlers"
+    "trade-genius-api/handlers"
 )
 
 func main() {
